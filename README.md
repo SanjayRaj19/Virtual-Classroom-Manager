@@ -3,15 +3,17 @@
 
 The Virtual Classroom Manager is a terminal-based Java application that allows users to manage virtual classrooms. It supports functionalities such as adding/removing classrooms, enrolling students, scheduling assignments, and submitting assignments.
 
-Prerequisites
+##  Prerequisites
       1) Java Development Kit (JDK) 8 or higher
       2) A terminal or command prompt
 
 After running the application, you can interact with the Virtual Classroom Manager through the terminal. The application will prompt you to enter commands to manage classrooms, students, and assignments.
 
-Commands
-    Add Classroom:
-    
+## Commands
+
+
+Add Classroom:
+
         add_classroom <class_name>
         
 Creates a new virtual classroom with the specified name.
@@ -45,7 +47,7 @@ Marks an assignment as submitted by the specified student in the given classroom
       
 Exits the application.
 
-Classes Overview:
+## Classes Overview:
 
 1)VirtualClassroomManager:
 Manages the overall functionalities of adding/removing classrooms, students, and assignments.
@@ -64,9 +66,9 @@ Represents an assignment with details.
 
 
 
-Design Patterns used to demonstarte the the understanding of the software design
+## Design Patterns used to demonstarte the the understanding of the software design:
 
-Behaviour Patterns
+## Behaviour Patterns
 
 Command Pattern
 
@@ -77,7 +79,7 @@ Observer Pattern
 Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 
-Creational Patterns
+## Creational Patterns
 
 Singleton Pattern
 
@@ -88,7 +90,7 @@ Factory Pattern
 Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
 
     
-Structural Patterns
+## Structural Patterns
 
 Adapter Pattern
 
@@ -99,7 +101,7 @@ Composite Pattern
 Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
 
 
-Running the Project
+## Running the Project
 
 Compile all the Java files.
 Run the main class for each pattern to see the example usages.
